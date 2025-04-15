@@ -9265,7 +9265,7 @@ const Dd = "_App_1qz8z_5",
   ],
   Tp = [
     {
-      role: "Full Stack Dev",
+      role: "Full Stack Developer",
       organisation: "Y Square Tech",
       startDate: "Dec, 2024",
       endDate: "Present",
