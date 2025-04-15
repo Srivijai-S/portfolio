@@ -9052,6 +9052,7 @@ const Dd = "_App_1qz8z_5",
   next = "/assets/next.png",
   express = "/assets/express.png",
   ysqaure = "/assets/ysquare.png",
+  ecommerce = "/assets/e-commerce.png",
   ve = (e) =>
     new URL(
       Object.assign({
@@ -9083,6 +9084,7 @@ const Dd = "_App_1qz8z_5",
         "/assets/skills/next.png": next,
         "/assets/skills/express.png": express,
         "/assets/skills/ysquare.png": ysqaure,
+        "/assets/skills/e-commerce.png": ecommerce,
       })[`/assets/${e}`],
       self.location
     ).href,
@@ -9486,6 +9488,15 @@ const Dd = "_App_1qz8z_5",
   tm = "_projects_7eoou_33",
   $l = { container: em, title: nm, projects: tm },
   rm = [
+    {
+      title: "Flash Sale",
+      imageSrc: "skills/e-commerce.png",
+      description:
+        "FlashSale is a fully responsive, e-commerce platform built for the ultimate shopping experience during flash sales.",
+      skills: ["React", "Airtable", "Fire Base", "MUI"],
+      demo: "https://flashsale-platform.netlify.app/",
+      source: "https://github.com/Srivijai-S/FlashSale",
+    },
     {
       title: "Wander Map",
       imageSrc: "projects/map.png",
